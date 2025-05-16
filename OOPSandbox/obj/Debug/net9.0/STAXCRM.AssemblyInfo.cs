@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("STAXCRM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66cb10452269bb23ce4331b1283dab4ed4a461a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("STAXCRM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("STAXCRM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

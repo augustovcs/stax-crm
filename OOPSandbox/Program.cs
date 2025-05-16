@@ -9,6 +9,7 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Globalization;
+using System.Net.Http.Json;
 using System.Resources;
 using System.Runtime.InteropServices.JavaScript;
 using System.Text;
@@ -30,6 +31,15 @@ public class UserMain
     {
         return $"ID: {Id}\nName: {Name}\nSex: {Sex}\nAge: {Age}\nHeight: {Height}\nWeight: {Weight}\n";
     }
+}
+
+public class Recommendations
+{
+    public string category { get; set; }
+    public string bmiRange { get; set; }
+    public string advice { get; set; }
+    
+   
 }
 
 public class MenuBool
@@ -63,8 +73,9 @@ public class MenuBool
     
     public void ActivateSearchUserMenu()
     {
-        MainMenu = false;
+        MainMenu = true;
         SearchUserMenu = true;
+        ListAllUsersMenu = false;
     }
 
     public void ActivateUpdateUserMenu()
@@ -84,12 +95,14 @@ public class MenuBool
     {
         MainMenu = false;
         ReturnMenuCreateUser = true;
+        ListAllUsersMenu = false;
     }
 
     public void ActivateMainMenu()
     {
         MainMenu = true;
         ReturnMenuCreateUser = false;
+        ListAllUsersMenu = false;
     }
        
 }
@@ -157,9 +170,9 @@ public class Program
         MenuBool state = new MenuBool();
 
 
-        //Verify if has a database file, if not, create a new one
         string filePath = Path.Combine(Directory.GetCurrentDirectory(), "usersdatabase.json");
-
+        
+        //Verify if has a database file, if not, create a new one
         List<UserMain> usersDB = new List<UserMain>();
         if (File.Exists(filePath))
         {
@@ -178,7 +191,7 @@ public class Program
         {
             if (state.MainMenu)
             {
-                Console.WriteLine("----- CRM STAX beta 0.1 ----");
+                Console.WriteLine("----- CRM STAX | Improve your best! ----");
                 Console.WriteLine("Please, choose a option: \n");
                 Console.WriteLine("1 - Create a new user");
                 Console.WriteLine("2 - List all users");
@@ -213,6 +226,8 @@ public class Program
                     Console.WriteLine("Creating a new user...");
                     usersDB.Add(user);
                     Console.WriteLine("User created successfully!");
+                    
+                    
 
                     string jsonString = JsonSerializer.Serialize(usersDB, new JsonSerializerOptions
                         { WriteIndented = true });
@@ -276,6 +291,7 @@ public class Program
                 
             }
             
+            
             //LIST ALL USERS MENU
             else if (state.ListAllUsersMenu)
             {
@@ -304,6 +320,8 @@ public class Program
                 else if (optionChoose == 3)
                 {
                     SearchAnUser(usersDB);
+                    state.ActivateSearchUserMenu();
+
                 }
                 
                 else if (optionChoose == 4)
@@ -321,6 +339,12 @@ public class Program
                     Console.WriteLine("Goodbye baby!");
                     break;
                 }
+                
+                else if (optionChoose == 9)
+                {
+                    
+                }
+               
             }
         }
         
@@ -406,11 +430,19 @@ public class Program
         if (user != null)
         {
             Console.WriteLine(user);
+            Console.WriteLine("------------------------");
+            Console.WriteLine("BMI and Recommendations");
+            BMICalculator(height: user.Height, weight: user.Weight);
+            
+            
+
+
         }
         else
         {
             Console.WriteLine("User not found!");
         }
+        
     }
 
 
@@ -494,7 +526,8 @@ public class Program
         }
 
     }
-
+    
+    //FUNCTION TO DELETE AN USER
     public static void DeleteAnUser(List<UserMain> usersDB)
     {
         Console.WriteLine("\n ----- DELETE AN USER ----- \n");
@@ -513,5 +546,56 @@ public class Program
         }
     }
     
+    public static void BMICalculator(double height, double weight)
+    {
+        
+        //Verify if has a database recommendations file, if not, create a new one
+        string fileRecommendationsPath = Path.Combine(Directory.GetCurrentDirectory(), "recommendationsdatabase.json");
+        List<Recommendations> recommendationsDB = new List<Recommendations>();
+        if (File.Exists(fileRecommendationsPath))
+        {
+            string jsonString2 = File.ReadAllText(fileRecommendationsPath);
+            recommendationsDB = JsonSerializer.Deserialize<List<Recommendations>>(jsonString2) ?? new List<Recommendations>();
+            
+        }
+        else
+        {
+            recommendationsDB = new List<Recommendations>();
+        }
+        
+        
+        double bmi = weight / (height * height);
+        Console.Write($"BMI: {bmi:F2}kg\n");
+        Console.WriteLine("-----RECOMMENDATIONS-----");
+
+        string jsonPath = "recommendationsdatabase.json";
+        string jsonString = File.ReadAllText(jsonPath);
+        List<Recommendations> recommendations = JsonSerializer.Deserialize<List<Recommendations>>(jsonString);
+        
+        var match = recommendationsDB.FirstOrDefault(r =>
+        {
+            var rangeParts = r.bmiRange.Split('-');
+            if (rangeParts.Length == 2 &&
+                double.TryParse(rangeParts[0], NumberStyles.Any, CultureInfo.InvariantCulture, out double min) &&
+                double.TryParse(rangeParts[1], NumberStyles.Any, CultureInfo.InvariantCulture, out double max))
+            {
+                return bmi >= min && bmi <= max;
+            }
+            return false;
+        });
+
+        if (match != null)
+        {
+            Console.WriteLine($"Category: {match.category}");
+            Console.WriteLine($"Advice: {match.advice}");
+            Console.WriteLine("-------------------------");
+        }
+        else
+        {
+            Console.WriteLine("No recommendations found for you!");
+        }
+
+
+    }
     
 }

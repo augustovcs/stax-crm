@@ -1,0 +1,252 @@
+﻿[
+  {
+    "category": "Severely Underweight",
+    "bmiRange": "<16",
+    "advice": "Seek medical supervision immediately; severely low BMI can be life-threatening."
+  },
+  {
+    "category": "Severely Underweight",
+    "bmiRange": "<16",
+    "advice": "Gradually increase caloric intake under medical guidance."
+  },
+  {
+    "category": "Severely Underweight",
+    "bmiRange": "<16",
+    "advice": "Prioritize nutrient-rich foods over empty calories."
+  },
+  {
+    "category": "Severely Underweight",
+    "bmiRange": "<16",
+    "advice": "Avoid intense physical activity until weight stabilizes."
+  },
+  {
+    "category": "Severely Underweight",
+    "bmiRange": "<16",
+    "advice": "Frequent, small meals can help increase intake safely."
+  },
+  {
+    "category": "Underweight",
+    "bmiRange": "16-18.4",
+    "advice": "Incorporate strength training to build lean muscle."
+  },
+  {
+    "category": "Underweight",
+    "bmiRange": "16-18.4",
+    "advice": "Track calorie intake and ensure a caloric surplus."
+  },
+  {
+    "category": "Underweight",
+    "bmiRange": "16-18.4",
+    "advice": "Include healthy snacks like peanut butter or trail mix."
+  },
+  {
+    "category": "Underweight",
+    "bmiRange": "16-18.4",
+    "advice": "Consider consulting a nutritionist for a personalized plan."
+  },
+  {
+    "category": "Underweight",
+    "bmiRange": "16-18.4",
+    "advice": "Ensure you're getting enough sleep to support weight gain."
+  },
+  {
+    "category": "Low Normal",
+    "bmiRange": "18.5-19.9",
+    "advice": "Maintain a balanced diet with moderate portions."
+  },
+  {
+    "category": "Low Normal",
+    "bmiRange": "18.5-19.9",
+    "advice": "Regular light strength training can improve your body composition."
+  },
+  {
+    "category": "Low Normal",
+    "bmiRange": "18.5-19.9",
+    "advice": "Stay active but avoid excessive cardio if losing weight unintentionally."
+  },
+  {
+    "category": "Low Normal",
+    "bmiRange": "18.5-19.9",
+    "advice": "Hydration is key; drink plenty of water throughout the day."
+  },
+  {
+    "category": "Low Normal",
+    "bmiRange": "18.5-19.9",
+    "advice": "Add an extra snack to your daily routine if you feel low on energy."
+  },
+  {
+    "category": "Normal",
+    "bmiRange": "20-24.9",
+    "advice": "Continue a balanced diet and regular physical activity."
+  },
+  {
+    "category": "Normal",
+    "bmiRange": "20-24.9",
+    "advice": "Monitor your weight periodically to maintain a healthy BMI."
+  },
+  {
+    "category": "Normal",
+    "bmiRange": "20-24.9",
+    "advice": "Incorporate variety in your meals to avoid nutritional gaps."
+  },
+  {
+    "category": "Normal",
+    "bmiRange": "20-24.9",
+    "advice": "Practice mindful eating and avoid overeating."
+  },
+  {
+    "category": "Normal",
+    "bmiRange": "20-24.9",
+    "advice": "Ensure proper sleep and hydration to support overall health."
+  },
+  {
+    "category": "High Normal",
+    "bmiRange": "25-26.9",
+    "advice": "Watch portion sizes and limit processed foods."
+  },
+  {
+    "category": "High Normal",
+    "bmiRange": "25-26.9",
+    "advice": "Add more fiber-rich foods like vegetables and whole grains."
+  },
+  {
+    "category": "High Normal",
+    "bmiRange": "25-26.9",
+    "advice": "Engage in 150 minutes of moderate aerobic activity weekly."
+  },
+  {
+    "category": "High Normal",
+    "bmiRange": "25-26.9",
+    "advice": "Monitor calorie intake vs. energy expenditure."
+  },
+  {
+    "category": "High Normal",
+    "bmiRange": "25-26.9",
+    "advice": "Consider consulting a health coach or dietitian if BMI trends upward."
+  },
+  {
+    "category": "Overweight",
+    "bmiRange": "27-29.9",
+    "advice": "Begin a structured exercise routine with cardio and strength training."
+  },
+  {
+    "category": "Overweight",
+    "bmiRange": "27-29.9",
+    "advice": "Avoid sugary beverages and high-calorie snacks."
+  },
+  {
+    "category": "Overweight",
+    "bmiRange": "27-29.9",
+    "advice": "Plan meals in advance to avoid unhealthy choices."
+  },
+  {
+    "category": "Overweight",
+    "bmiRange": "27-29.9",
+    "advice": "Consider tracking your food with a nutrition app."
+  },
+  {
+    "category": "Overweight",
+    "bmiRange": "27-29.9",
+    "advice": "Increase daily steps by walking more frequently."
+  },
+  {
+    "category": "Obese Class I",
+    "bmiRange": "30-34.9",
+    "advice": "Consult a healthcare provider for a tailored weight loss plan."
+  },
+  {
+    "category": "Obese Class I",
+    "bmiRange": "30-34.9",
+    "advice": "Focus on sustainable, long-term dietary changes."
+  },
+  {
+    "category": "Obese Class I",
+    "bmiRange": "30-34.9",
+    "advice": "Aim for at least 30 minutes of physical activity most days of the week."
+  },
+  {
+    "category": "Obese Class I",
+    "bmiRange": "30-34.9",
+    "advice": "Limit consumption of high-fat, high-sugar foods."
+  },
+  {
+    "category": "Obese Class I",
+    "bmiRange": "30-34.9",
+    "advice": "Surround yourself with supportive people or join a weight loss group."
+  },
+  {
+    "category": "Obese Class II",
+    "bmiRange": "35-39.9",
+    "advice": "Work closely with medical professionals to manage health risks."
+  },
+  {
+    "category": "Obese Class II",
+    "bmiRange": "35-39.9",
+    "advice": "Behavioral therapy may help establish healthier habits."
+  },
+  {
+    "category": "Obese Class II",
+    "bmiRange": "35-39.9",
+    "advice": "Increase physical activity gradually to avoid injury."
+  },
+  {
+    "category": "Obese Class II",
+    "bmiRange": "35-39.9",
+    "advice": "Focus on whole, unprocessed foods."
+  },
+  {
+    "category": "Obese Class II",
+    "bmiRange": "35-39.9",
+    "advice": "Evaluate underlying emotional or psychological factors linked to eating."
+  },
+  {
+    "category": "Obese Class III",
+    "bmiRange": ">=40",
+    "advice": "Serious health risks require immediate medical intervention."
+  },
+  {
+    "category": "Obese Class III",
+    "bmiRange": ">=40",
+    "advice": "Consider specialized programs for weight management."
+  },
+  {
+    "category": "Obese Class III",
+    "bmiRange": ">=40",
+    "advice": "Surgical options may be considered under professional guidance."
+  },
+  {
+    "category": "Obese Class III",
+    "bmiRange": ">=40",
+    "advice": "Adopt small, achievable lifestyle changes to start progress."
+  },
+  {
+    "category": "Obese Class III",
+    "bmiRange": ">=40",
+    "advice": "Mental health support is essential in managing obesity."
+  },
+  {
+    "category": "Athletic",
+    "bmiRange": ">=23 (muscular)",
+    "advice": "BMI may be inaccurate due to muscle mass; consider body fat analysis."
+  },
+  {
+    "category": "Athletic",
+    "bmiRange": ">=23 (muscular)",
+    "advice": "Ensure recovery days in your training schedule."
+  },
+  {
+    "category": "Athletic",
+    "bmiRange": ">=23 (muscular)",
+    "advice": "Stay hydrated and follow high-protein nutrition."
+  },
+  {
+    "category": "Athletic",
+    "bmiRange": ">=23 (muscular)",
+    "advice": "Monitor heart health and metabolic markers regularly."
+  },
+  {
+    "category": "Athletic",
+    "bmiRange": ">=23 (muscular)",
+    "advice": "Adjust nutrition to match training intensity and goals."
+  }
+]

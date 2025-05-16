@@ -1,0 +1,15 @@
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\STAXCRM.exe
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\STAXCRM.deps.json
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\STAXCRM.runtimeconfig.json
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\STAXCRM.dll
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\STAXCRM.pdb
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\STAXCRM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\STAXCRM.AssemblyInfoInputs.cache
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\STAXCRM.AssemblyInfo.cs
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\STAXCRM.csproj.CoreCompileInputs.cache
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\STAXCRM.sourcelink.json
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\STAXCRM.dll
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\refint\STAXCRM.dll
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\STAXCRM.pdb
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\STAXCRM.genruntimeconfig.cache
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\ref\STAXCRM.dll
