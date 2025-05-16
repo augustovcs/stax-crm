@@ -1,0 +1,14 @@
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\OOPSandbox.exe
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\OOPSandbox.deps.json
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\OOPSandbox.runtimeconfig.json
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\OOPSandbox.dll
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\bin\Debug\net9.0\OOPSandbox.pdb
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\OOPSandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\OOPSandbox.AssemblyInfoInputs.cache
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\OOPSandbox.AssemblyInfo.cs
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\OOPSandbox.csproj.CoreCompileInputs.cache
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\OOPSandbox.dll
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\refint\OOPSandbox.dll
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\OOPSandbox.pdb
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\OOPSandbox.genruntimeconfig.cache
+C:\Users\darri\RiderProjects\OOPSandbox\OOPSandbox\obj\Debug\net9.0\ref\OOPSandbox.dll
